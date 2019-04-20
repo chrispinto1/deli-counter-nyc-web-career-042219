@@ -4,10 +4,14 @@ def line(line)
     puts "The line is currently empty."
   else
     i = 1
+    number = []
+    person = []
     line.each do |name|
-        puts "The line is currently: #{i}. #{name}."
-        i+=1
+      number << i
+      person << name
     end
+    puts number
+    puts person
   end
 end
 
