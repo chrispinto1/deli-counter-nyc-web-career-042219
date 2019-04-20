@@ -5,10 +5,8 @@ def line(line)
   else
     i = 1
     line.each do |name|
-      while i <= name.size
         puts "The line is currently: #{i}. #{name}."
         i+=1
-      end
     end
   end
 end
