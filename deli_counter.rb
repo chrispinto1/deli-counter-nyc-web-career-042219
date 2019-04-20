@@ -3,7 +3,9 @@ def line(line)
   if line.size == 0
     puts "The line is currently empty."
   else
-    line.each do |name| 
+    i = 1
+    line.each do |name|
+      while i < name.size
       puts "The line is currently: #{name.position}"
   end
 end
