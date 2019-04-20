@@ -6,7 +6,7 @@ def line(line)
     i = 1
     lines = ""
     line.each do |name|
-      lines << "#{i}. #{name}"
+      lines << " #{i}. #{name}"
       i+=1
     end
     puts "The line is currently: #{lines}"
