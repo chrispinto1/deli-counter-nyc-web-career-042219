@@ -15,8 +15,9 @@ end
 
 def take_a_number(line_array, new_person)
   position = 1
+  line = ""
   line_array.each do |string|
-    string.push("Welcome, #{new_person}. You are number #{position} in line.")
+    line << ("Welcome, #{new_person}. You are number #{position} in line.")
     position+=1
   end
 end
