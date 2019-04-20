@@ -18,7 +18,8 @@ def take_a_number(line_array, new_person)
   if line_array.size == 0
     line_array << "Ada"
     puts "Welcome, Ada. You are number 1 in line."
-  end
+  else
+    
 end
 
 #line = ""
