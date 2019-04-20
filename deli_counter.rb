@@ -14,7 +14,6 @@ def line(line)
 end
 
 def take_a_number(line_array, new_person)
-  position = 1
   if line_array.size == 0
     line_array << "Ada"
     puts "Welcome, Ada. You are number 1 in line."
@@ -24,7 +23,8 @@ def take_a_number(line_array, new_person)
   end
 end
 
-#line = ""
-#  line_array.each do |string|
-#    line << ("Welcome, #{new_person}. You are number #{position} in line.")
-#    position+=1
+def now_serving(line)
+  if line.size == 0
+    puts "The line is empty."
+  end
+end
