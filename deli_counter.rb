@@ -9,7 +9,7 @@ def line(line)
       lines << " #{i}. #{name}"
       i+=1
     end
-    puts "The line is currently: #{lines}"
+    puts "The line is currently:#{lines}"
   end
 end
 
